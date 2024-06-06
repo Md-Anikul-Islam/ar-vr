@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ asset('build/assets/app-9GQts-QQ.css') }}">
     <script src="{{ asset('build/assets/app-D3Y-ymQv.js') }}"></script>
 	<link href="{{ asset('favicon.ico') }}" rel="icon" />
-	<title>Bangabndhu Vertual Tour (VR)</title>
+	<title>Bangabandhu Virtual Tour (VR)</title>
 </head>
 <body>
 	<main>
