@@ -7,13 +7,13 @@
 					<a href="{{ url('/') }}">
 						<img class="h-24" draggable="false" src="{{ asset('logo.png') }}" alt="Logo">
 					</a>
-					<h1 class="text-4xl font-tiroBangla font-bold hidden sm:block">বঙ্গবন্ধু ভার্চুয়াল ট্যুর</h1>
+					<h1 class="text-4xl font-tiroBangla font-bold hidden sm:block">বঙ্গবন্ধুর স্মৃতি বিজড়িত স্থান সমূহের ভার্চুয়াল ট্যুর</h1>
 					<img class="h-16" draggable="false" src="{{ asset('ict.svg') }}" alt="ICT Logo">
 				</div>
 			</div>
 		</header>
 		<section class="px-[15px] md:px-0 pb-10 md:pb-16 lg:pb-20">
-			<h2 class="text-3xl font-tiroBangla font-bold py-5 text-center block sm:hidden">বঙ্গবন্ধু ভার্চুয়াল ট্যুর</h2>
+			<h2 class="text-3xl font-tiroBangla font-bold py-5 text-center block sm:hidden">বঙ্গবন্ধুর স্মৃতি বিজড়িত স্থান সমূহের ভার্চুয়াল ট্যুর</h2>
 			<div class="container mx-auto">
 				<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
 					<button data-modal-target="dhanmondi" data-modal-toggle="dhanmondi" class="card_wrap_style">
@@ -54,8 +54,8 @@
 				Copyright © <script>
 						document.write(new Date().getFullYear())
 					</script>, All rights reserved <br> Developed by:
-				<a href="https://www.etl.com.bd/" target="_blank">
-					<img src="https://virtualtour.halftimefpl.xyz/images/SDMGA_Logo_1.png" alt="ezzetech" class="h-8 text-center inline-block">
+				<a href="https://gameapp.gov.bd/" target="_blank">
+					<img src="{{ asset('sdmg.svg') }}" alt="ezzetech" class="w-[100px] text-center inline-block">
 				</a>
 			</p>
 		</footer>
