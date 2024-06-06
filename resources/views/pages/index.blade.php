@@ -22,7 +22,7 @@
 							<h2 class="card_wrap_text">স্মৃতি জাদুঘর</h2>
 						</div>
 					</button>
-					<a href="https://etldev.xyz/bvr/suhrawardy-en/" target="_blank" class="card_wrap_style">
+					<a href="{{ asset('suhrawardy-en') }}" target="_blank" class="card_wrap_style">
 						<img src="{{ asset('suhrawardy.jpeg') }}" draggable="false" class="card_wrap_image" alt="suhrawardy">
 						<div class="p-5 text-center">
 							<h2 class="card_wrap_text">সোহরাওয়ার্দী উদ্যান</h2>
@@ -34,7 +34,7 @@
 							<h2 class="card_wrap_text">বেকার হোস্টেল</h2>
 						</div>
 					</button>
-					<a href="https://etldev.xyz/bvr/tungipara-en/" target="_blank" class="card_wrap_style">
+					<a href="{{ asset('tungipara-en') }}" target="_blank" class="card_wrap_style">
 						<img src="{{ asset('tungipara.jpeg') }}" draggable="false" class="card_wrap_image" alt="tungipara">
 						<div class="p-5 text-center">
 							<h2 class="card_wrap_text">টুঙ্গিপাড়া</h2>
@@ -80,10 +80,10 @@
 				<!-- Modal body -->
 				<div class="p-4 md:p-5 space-y-4">
 					<div class="grid grid-cols-2 items-center gap-5 justify-center">
-						<a href="https://etldev.xyz/bvr/memorial-museum-bn/" target="_blank" class="modal_link_style hover:text-primary">
+						<a href="{{ asset('memorial-museum-bn') }}" target="_blank" class="modal_link_style hover:text-primary">
 							স্মৃতি জাদুঘর বাংলা ভাষায় ভার্চুয়াল ট্যুর শুরু করুন!
 						</a>
-						<a href="https://etldev.xyz/bvr/memorial-museum-en/" target="_blank" class="modal_link_style hover:text-primary">
+						<a href="{{ asset('memorial-museum-en') }}" target="_blank" class="modal_link_style hover:text-primary">
 							স্মৃতি জাদুঘর ইংরেজী ভাষায় ভার্চুয়াল ট্যুর শুরু করুন!
 						</a>
 					</div>
@@ -109,10 +109,10 @@
 				<!-- Modal body -->
 				<div class="p-4 md:p-5 space-y-4">
 					<div class="grid grid-cols-2 items-center gap-5 justify-center">
-						<a href="https://etldev.xyz/bvr/baker-hostel-bn/" target="_blank" class="modal_link_style hover:text-primary">
+						<a href="{{ asset('baker-hostel-bn') }}" target="_blank" class="modal_link_style hover:text-primary">
 							বেকার হোস্টেল বাংলা ভাষায় ভার্চুয়াল ট্যুর শুরু করুন!
 						</a>
-						<a href="https://etldev.xyz/bvr/baker-hostel-en/" target="_blank" class="modal_link_style hover:text-primary">
+						<a href="{{ asset('baker-hostel-en') }}" target="_blank" class="modal_link_style hover:text-primary">
 							বেকার হোস্টেল ইংরেজী ভাষায় ভার্চুয়াল ট্যুর শুরু করুন!
 						</a>
 					</div>
@@ -138,10 +138,10 @@
 				<!-- Modal body -->
 				<div class="p-4 md:p-5 space-y-4">
 					<div class="grid grid-cols-2 items-center gap-5 justify-center">
-						<a href="https://etldev.xyz/bvr/chengchhari-bn/" target="_blank" class="modal_link_style hover:text-primary">
+						<a href="{{ asset('chengchhari-bn') }}" target="_blank" class="modal_link_style hover:text-primary">
 							চেংছড়ি গ্রাম বাংলা ভাষায় ভার্চুয়াল ট্যুর শুরু করুন!
 						</a>
-						<a href="https://etldev.xyz/bvr/chengchhari-en/" target="_blank" class="modal_link_style hover:text-primary">
+						<a href="{{ asset('chengchhari-en') }}" target="_blank" class="modal_link_style hover:text-primary">
 							চেংছড়ি গ্রাম ইংরেজী ভাষায় ভার্চুয়াল ট্যুর শুরু করুন!
 						</a>
 					</div>
