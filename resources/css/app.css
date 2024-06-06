@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card_wrap_style {
+    @apply shadow-md p-2 rounded border transition duration-300 transform hover:scale-105;
+}
+.card_wrap_image {
+    @apply w-full h-[400px] md:h-auto object-cover;
+}
+.card_wrap_text {
+    @apply text-xl font-semibold leading-tight text-center;
+}
+.modal_close_button {
+    @apply text-black bg-transparent transition duration-300 ease-in-out hover:text-white rounded-full text-sm w-8 h-8 ms-auto inline-flex justify-center items-center;
+}
+.modal_heading_text {
+    @apply text-xl font-semibold text-gray-900;
+}
+.modal_link_style {
+    @apply border flex font-medium h-[150px] items-center justify-center leading-7 p-5 rounded shadow-sm text-center text-lg transition duration-300 ease-in-out w-full;
+}
+
