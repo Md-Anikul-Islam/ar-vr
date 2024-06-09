@@ -21,7 +21,7 @@
 						<div class="p-5 text-center">
 							<h2 class="card_wrap_text">স্মৃতি জাদুঘর</h2>
 						</div>
-					</button>
+					</a>
 					<a href="javascript:void(0)" class="card_wrap_style">
 						<img src="{{ asset('suhrawardy.jpeg') }}" draggable="false" class="card_wrap_image" alt="suhrawardy">
 						<div class="p-5 text-center">
@@ -33,7 +33,7 @@
 						<div class="p-5 text-center">
 							<h2 class="card_wrap_text">বেকার হোস্টেল</h2>
 						</div>
-					</button>
+					</a>
 					<a href="javascript:void(0)" class="card_wrap_style">
 						<img src="{{ asset('tungipara.jpeg') }}" draggable="false" class="card_wrap_image" alt="tungipara">
 						<div class="p-5 text-center">
@@ -45,7 +45,7 @@
 						<div class="p-5 text-center">
 							<h2 class="card_wrap_text">চেংছড়ি গ্রাম, উখিয়া</h2>
 						</div>
-					</button>
+					</a>
 				</div>
 			</div>
 		</section>
