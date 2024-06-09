@@ -16,31 +16,31 @@
 			<h2 class="text-3xl font-tiroBangla font-bold py-5 text-center block sm:hidden">বঙ্গবন্ধুর স্মৃতি বিজড়িত স্থান সমূহের ভার্চুয়াল ট্যুর</h2>
 			<div class="container mx-auto">
 				<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
-					<button data-modal-target="dhanmondi" data-modal-toggle="dhanmondi" class="card_wrap_style">
+					<a href="{{ asset('memorial-museum-bn') }}" target="_blank" class="card_wrap_style">
 						<img src="{{ asset('dhanmondi.jpeg') }}" draggable="false" class="card_wrap_image" alt="Dhanmondi 32">
 						<div class="p-5 text-center">
 							<h2 class="card_wrap_text">স্মৃতি জাদুঘর</h2>
 						</div>
 					</button>
-					<a href="{{ asset('suhrawardy-en') }}" target="_blank" class="card_wrap_style">
+					<a href="javascript:void(0)" class="card_wrap_style">
 						<img src="{{ asset('suhrawardy.jpeg') }}" draggable="false" class="card_wrap_image" alt="suhrawardy">
 						<div class="p-5 text-center">
 							<h2 class="card_wrap_text">সোহরাওয়ার্দী উদ্যান</h2>
 						</div>
 					</a>
-					<button data-modal-target="backerHostel" data-modal-toggle="backerHostel" class="card_wrap_style">
+					<a href="{{ asset('baker-hostel-bn') }}" target="_blank" class="card_wrap_style">
 						<img src="{{ asset('backer_hostel.jpeg') }}" draggable="false" class="card_wrap_image" alt="Backer Hostel">
 						<div class="p-5 text-center">
 							<h2 class="card_wrap_text">বেকার হোস্টেল</h2>
 						</div>
 					</button>
-					<a href="{{ asset('tungipara-en') }}" target="_blank" class="card_wrap_style">
+					<a href="javascript:void(0)" class="card_wrap_style">
 						<img src="{{ asset('tungipara.jpeg') }}" draggable="false" class="card_wrap_image" alt="tungipara">
 						<div class="p-5 text-center">
 							<h2 class="card_wrap_text">টুঙ্গিপাড়া</h2>
 						</div>
 					</a>
-					<button data-modal-target="chengchhariVillage" data-modal-toggle="chengchhariVillage" class="card_wrap_style">
+					<a href="{{ asset('chengchhari-bn') }}" target="_blank" class="card_wrap_style">
 						<img src="{{ asset('chengchhari.jpeg') }}" draggable="false" class="card_wrap_image" alt="Chengchhari">
 						<div class="p-5 text-center">
 							<h2 class="card_wrap_text">চেংছড়ি গ্রাম, উখিয়া</h2>
